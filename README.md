@@ -2,6 +2,7 @@
 // Para a criação de um banco de dados
 
 
+```sql
 tabela sql create database bd_rh;
 create table tb_funcionario
 (matricula int not null primary key,
@@ -10,3 +11,4 @@ dt_nascimento date,
 cd_setor int,
 cd_cargo int,
 salario money);
+```
